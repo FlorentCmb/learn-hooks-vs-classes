@@ -1,0 +1,46 @@
+/* Main container settings */
+.CharacterCard {
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    border-radius: 5px;
+    background-image: url('../assets/leatherTexture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    border: 3px solid rgb(255, 196, 0);
+}
+
+/* Img settings */
+.CharacterCard-Img {
+    background-color: rgb(105, 30, 30);
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 30px;
+    /* border: 3px solid rgb(255, 196, 0); */
+    border: 3px solid rgb(53, 17, 17);
+    display: block;
+    margin: auto;
+}
+
+/* Text settings */
+.CharacterCard-Text {
+    font-family: 'Texturina', serif;
+    font-size: 120%;
+    text-align: center;
+    color: white;
+}
+
+/* Button settings */
+.CharacterCard-Button {
+    font-family: 'Texturina', serif;
+    font-size: 100%;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 196, 0);
+    color: wheat;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+}
